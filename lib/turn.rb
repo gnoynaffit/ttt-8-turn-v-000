@@ -6,6 +6,7 @@ puts " #{board[3]} | #{board[4]} | #{board[5]} "
 puts "-----------"
 puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
+
 #input to index
 def input_to_index(user_input)
   index = user_input.to_i
@@ -14,7 +15,16 @@ def input_to_index(user_input)
 end
 
 #valid move
+def valid_move?(board, index)
+ def position_taken?(array, ind)
+   if array[ind] == " " || array[ind] == "" || array[ind] -- nil
+     return false
+   else
+     return true
+   end
+ end
 
-#move
+ #move
+
 
 #turn
