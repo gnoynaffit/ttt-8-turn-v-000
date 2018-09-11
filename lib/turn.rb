@@ -17,8 +17,9 @@ end
 #valid move
 
 
+
 #move
-def move(board, index character = "X")
+def move(board, index, character = "X")
   board[index] = character
   return board
 end
